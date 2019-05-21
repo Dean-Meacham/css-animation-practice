@@ -1,0 +1,128 @@
+.box1, .box2, .box3, .box4 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+}
+
+body {
+    background-color: lightgray;
+}
+
+div:hover {
+    border: solid white 1px;
+    transition: border .15s ease-in-out;
+}
+
+.box1 {
+    background-color: lightcoral;
+    animation-name:lcoral;
+    animation-duration: 7s;
+    top: 0;
+    left: 0;
+}
+
+.box2 {
+    background-color: lightblue;
+    animation-name:lblue;
+    animation-duration: 7s;
+    top: 0;
+    right: 0;
+}
+
+.box3 {
+    background-color: lightgreen;
+    animation-name: lgreen;
+    animation-duration: 7s;
+    bottom: 0;
+    left: 0;
+}
+
+.box4 {
+    background-color: lightgoldenrodyellow;
+    animation-name: lyellow;
+    animation-duration: 7s;
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes lcoral {
+    25% {
+        top: 50%;
+        left: 50%;
+        background-color: black;
+        border-radius: 0 0 100% 0;
+    }
+    50% {
+        top: 50%;
+        left: 50%;
+        background-color: black;
+        border-radius: 0 0 100% 0;
+    }
+    100% {
+        top: 100%;
+        left: 100%;
+        background-color: lightcoral;
+    }
+}
+
+@keyframes lblue {
+    25% {
+        top: 50%;
+        right: 50%;
+        background-color: black;
+        border-radius: 0 0 0 100%;
+    }
+    50% {
+        top: 50%;
+        right: 50%;
+        background-color: black;
+        border-radius: 0 0 0 100%;
+    }
+    100% {
+        top: 100%;
+        right: 100%;
+        background-color: lightblue;
+    }
+}
+
+@keyframes lgreen {
+    25% {
+        bottom: 50%;
+        left: 50%;
+        background-color: black;
+        border-radius: 0 100% 0 0;
+    }
+    50% {
+        bottom: 50%;
+        left: 50%;
+        background-color: black;
+        border-radius: 0 100% 0 0;
+    }
+    100% {
+        bottom: 100%;
+        left: 100%;
+        background-color: lightgreen;
+    }
+}
+
+@keyframes lyellow {
+    25% {
+        bottom: 50%;
+        right: 50%;
+        background-color: black;
+        border-radius: 100% 0 0 0;
+    }
+    50% {
+        bottom: 50%;
+        right: 50%;
+        background-color: black;
+        border-radius: 100% 0 0 0;
+    }
+    100% {
+        bottom: 100%;
+        right: 100%;
+        background-color: lightgoldenrodyellow;
+    }
+}
