@@ -18,7 +18,7 @@ div:hover {
 .box1 {
     background-color: lightcoral;
     animation-name:lcoral;
-    animation-duration: 7s;
+    animation-duration: 8s;
     top: 0;
     left: 0;
 }
@@ -26,7 +26,7 @@ div:hover {
 .box2 {
     background-color: lightblue;
     animation-name:lblue;
-    animation-duration: 7s;
+    animation-duration: 8s;
     top: 0;
     right: 0;
 }
@@ -34,7 +34,7 @@ div:hover {
 .box3 {
     background-color: lightgreen;
     animation-name: lgreen;
-    animation-duration: 7s;
+    animation-duration: 8s;
     bottom: 0;
     left: 0;
 }
@@ -42,7 +42,7 @@ div:hover {
 .box4 {
     background-color: lightgoldenrodyellow;
     animation-name: lyellow;
-    animation-duration: 7s;
+    animation-duration: 8s;
     bottom: 0;
     right: 0;
 }
@@ -61,8 +61,8 @@ div:hover {
         border-radius: 0 0 100% 0;
     }
     100% {
-        top: 100%;
-        left: 100%;
+        top: 80%;
+        left: 80%;
         background-color: lightcoral;
     }
 }
@@ -81,8 +81,8 @@ div:hover {
         border-radius: 0 0 0 100%;
     }
     100% {
-        top: 100%;
-        right: 100%;
+        top: 80%;
+        right: 80%;
         background-color: lightblue;
     }
 }
@@ -101,8 +101,8 @@ div:hover {
         border-radius: 0 100% 0 0;
     }
     100% {
-        bottom: 100%;
-        left: 100%;
+        bottom: 80%;
+        left: 80%;
         background-color: lightgreen;
     }
 }
@@ -121,8 +121,8 @@ div:hover {
         border-radius: 100% 0 0 0;
     }
     100% {
-        bottom: 100%;
-        right: 100%;
+        bottom: 80%;
+        right: 80%;
         background-color: lightgoldenrodyellow;
     }
 }
